@@ -5,5 +5,5 @@ let package = Package(
     name: "Evergage",
     platforms: [.iOS("15.0")],
     products: [.library(name: "Evergage", targets: ["Evergage"])],
-    targets: [.binaryTarget(name: "Evergage", path: "Evergage.xcframework")]
+    targets: [.binaryTarget(name: "Evergage", path: "Frameworks/Evergage.xcframework")]
 )
