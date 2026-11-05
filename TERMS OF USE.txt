@@ -1,4 +1,4 @@
-Copyright 2022 Salesforce, Inc. All rights reserved. 
+Copyright 2026 Salesforce, Inc. All rights reserved. 
 
 These Terms of Use are between You (being the Customer that purchased the Services) and salesforce.com, inc. or its Affiliate (“SFDC”) that entered into an agreement with You that governs Your purchase of the Services (the “Agreement”). Capitalized terms not defined herein shall have the meaning defined in the Agreement.
 
