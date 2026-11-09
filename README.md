@@ -2,11 +2,11 @@
 
 The Evergage iOS SDK provides event tracking and personalized experiences for native iOS applications using Salesforce Marketing Cloud Personalization.
 
-This repository provides documentation and package metadata for the precompiled SDK.
+This repository distributes the precompiled SDK and its documentation.
 
-## Distribution status
+## Distribution
 
-This checkout packages SDK **1.5.1** as a SwiftPM binary target. The static `Evergage.xcframework` is included directly in the repository. Once the contents are published and tagged, SwiftPM fetches the framework with the repository; no separate artifact server or ZIP checksum is required for this local-path binary target.
+This package ships SDK **1.5.1** as a SwiftPM binary target. The static `Evergage.xcframework` is included in the repository under `Frameworks/`, so SwiftPM fetches it together with the package; no separate artifact download or checksum is required.
 
 ## Requirements
 
@@ -14,11 +14,9 @@ SDK 1.5.1 requires iOS 15 or later. Set your application's deployment target to 
 
 ## Swift Package Manager
 
-Once a release is published:
-
 1. In Xcode, select **File > Add Package Dependencies**.
 2. Enter `https://github.com/salesforce-marketingcloud/marketingcloud-personalization-ios-sdk.git`.
-3. Select the published release version.
+3. Select version **1.5.1**.
 4. Add the **Evergage** product to the application target.
 
 The package delivers the static XCFramework. Swift applications can access its module with `import Evergage`; Objective-C applications can use `@import Evergage;`.
@@ -40,5 +38,13 @@ See [Salesforce's mobile integration documentation](https://developer.salesforce
 
 ## Manual integration
 
-For dynamic framework integration, use the dynamic `Evergage.xcframework` from the applicable SDK release ZIP and follow the SDK integration documentation. Public release download links will be added when artifacts are published.
+For dynamic framework integration, use the dynamic `Evergage.xcframework` from the SDK 1.5.1 release ZIP and follow the SDK integration documentation.
+
+## Support
+
+This repository doesn't accept issues or contributions. For help with the SDK, contact [Salesforce Support](https://help.salesforce.com).
+
+## Terms of use
+
+Use of this SDK is governed by [TERMS OF USE.txt](TERMS%20OF%20USE.txt). This repository contains docs and artifacts only; see [DOCS_or_ARTIFACTS_ONLY.md](DOCS_or_ARTIFACTS_ONLY.md).
 
